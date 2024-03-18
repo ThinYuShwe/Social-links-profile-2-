@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  border-radius: 1rem;
+  box-sizing: border-box;
+  width: 21rem;
+  padding: 1.4rem;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
+.profile-picture {
+  width: 5.5rem;
+  border-radius: 50%;
+}
+
+h1 {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+p {
+  color: hsl(75, 94%, 57%);
+  transform: translateY(-13px);
+  font-size: 0.9rem;
+}
+
+q {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.collected {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  all: unset;
+}
+
+.collected a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.6rem;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 0.9rem;
+}
+
+.collected a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
